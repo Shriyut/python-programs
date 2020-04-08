@@ -13,12 +13,10 @@ def getMoneySpent(keyboards, drives, b):
     # Write your code here.
     #
     sp = []
-    index = 0
     for i in range(0, len(keyboards)):
         for j in range(0, len(drives)):
             if (keyboards[i]+drives[j] <= b):
                 sp.append(keyboards[i]+drives[j])
-                index = index+1
     
     if (len(sp) == 0):
         return -1
