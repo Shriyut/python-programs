@@ -1,3 +1,5 @@
+#https://www.hackerrank.com/challenges/30-scope/problem
+
 class Difference:
     def __init__(self, a):
         self.__elements = a
